@@ -1,0 +1,333 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: auto;
+}
+body{
+    font-family: 'Jost', sans-serif;
+}
+/*first part */
+.navbar {
+width: 100%;
+height: 20%;
+padding-right: 15px;
+width: 100%;
+margin-bottom:15px ;
+background-color: white;
+position: fixed;
+}
+.navbar h1{
+    text-align: center;
+    padding: 15px;
+}
+.content{
+    margin: 20px 10px;
+    margin: auto;
+    padding: 5px 20px;
+    width: 50%;
+    background-color: white;
+}
+.content .home{
+    float: left;
+    padding: 10px;
+    margin-right: 10px;
+}
+.content .about{
+    float: left;
+    padding: 10px;
+    margin-right: 10px;
+}
+.content .offers{
+    float: left;
+    padding: 10px;
+    margin-right: 10px;
+}
+.content .Menu{
+    float: left;
+    padding: 10px;
+    margin-right: 10px;
+}
+.content .Contact{
+    float: left;
+    padding: 10px;
+    margin-right: 10px;
+}
+.content .basket{
+    float: left;
+    padding: 10px;
+    margin-right: 10px;
+}
+/*end navbar*/
+
+.first{
+    width: 100%;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    /*position: relative;*/
+}
+.first img{
+    width: 100%;
+}
+.btn{
+    background-color: rgb(254, 57, 57);;
+    font-size: larger;
+    padding: 10px 56px;
+    border-radius: 30%;
+    left: 45%;
+    top: 50%;
+    /*position:absolute;
+    right: 50% ;
+    top: 40%;*/
+}
+/*end first part */
+
+/*second part */
+
+.burgerimg{
+    width: 50%;
+    float: left;
+    border-radius: 7%;
+    margin-right: 10px;
+}
+.text{
+    padding: 50px 20px 50px 0px;
+
+}
+.text button{
+    background-color: black;
+    color: white;
+    padding: 5px 16px;
+    border-radius: 8px;
+    font-size: 12px;
+}
+.text h1{
+    font-size: 60px;
+    font-weight: bolder;
+}
+.text .secondp{
+    font-size: 20px;
+}
+.text .grayp{
+    font-size: 20px;
+    font-weight: bold;
+    color: gray;
+}
+/*end second part */
+
+/*trending*/
+.none h1{
+font-size: 60px;
+padding-left: 15px;
+}
+.trending {
+    width: 24%;
+    float: left;
+    padding: 20px;
+   margin-bottom: 50px;
+}
+.trending .juicy{
+    width: 100%;
+    border-radius: 15%;
+    padding-bottom: 10px;
+    padding: 15px;
+}
+.trending  h1{
+    padding: 15px 20px;
+    font-weight: bold;
+   
+}
+.trending p{
+    padding-bottom:20px ;
+    font-size: 25px;
+    padding-left: 20px;
+}
+.trending button{
+    line-height: 33px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 20px;
+    border-radius: 15px;
+    background-color: #ff3939;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.space{
+    background-color: rgb(238, 234, 236);
+    border-radius: 15px;
+}
+
+/*Trending End */
+
+.clr{
+    clear: left;
+}
+/*Dessert part */
+.desseertName{
+    font-size: 30px;
+    color: rgb(5, 5, 5);
+
+} 
+    .dessert {
+        margin-top: 50px;
+        width: 24%;
+        float: left;
+        padding: 20px;
+    }
+    .dessert .Strawberry{
+        width: 100%;
+        border-radius: 15%;
+        padding-bottom: 10px;
+        padding: 15px;
+    }
+    .dessert .Chocolate{
+        width: 100%;
+        border-radius: 15%;
+        padding-bottom: 10px;
+        padding: 15px;
+    }
+    .dessert .pie{
+        width: 100%;
+        border-radius: 15%;
+        padding-bottom: 10px;
+        padding: 15px;
+    }
+    .dessert .Sunday{
+        width: 100%;
+        border-radius: 15%;
+        padding-bottom: 10px;
+        padding: 15px;
+    }
+    .dessert  h1{
+        padding: 15px 20px;
+        font-weight: bold;
+        font-family: 'Jost', sans-serif;
+    }
+    .dessert p{
+        padding-bottom:20px ;
+        font-size: 25px;
+        padding-left: 20px;
+        font-family: 'Jost', sans-serif;
+    }
+    .dessert button{
+        line-height: 33px;
+        padding-left: 15px;
+        padding-right: 15px;
+        font-size: 20px;
+        border-radius: 15px;
+        background-color: #ff3939;
+        color: #ffffff;
+        margin-left: 10px;
+        margin-bottom: 15px;
+    }
+    .space{
+        background-color: rgb(238, 234, 236);
+        border-radius: 15px;
+    }
+
+    .clr
+   {
+    clear: left; 
+   }
+    /* last part */
+    
+
+/*information part*/
+.information{
+width: 100%;
+padding: 120px 0px 150px;
+}
+.information .jevilin{
+    width: 30.333%;
+    float: left;
+     margin-right: 5px;
+}
+.information .jevilin h1{
+    font-weight: bold;
+    font-size: 40px;
+    padding-top: 15px ;
+    padding-left: 20px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+.information .jevilin p{
+    font-family: "Jost";
+    color: #515050;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 34px;
+    padding-left: 20px;
+}
+.information .jevilin .icons{
+    padding:20px  15px; 
+}
+.information .jevilin .icons i{
+    padding: 7px;
+}
+.information .contactus{
+    width: 30.333%;
+    float: left;
+    margin-left: 40px;
+    text-align: center;
+}
+.information .contactus h1{
+    font-weight: bold;
+    font-size: 40px;
+    padding-top: 15px ;
+    padding-left: 20px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+.information .contactus p{
+    font-family: "Jost";
+    color: #515050;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 34px;   
+}
+.information .subscribe{
+    width: 30.3333%;
+    float: right;
+    text-align: center;
+}
+.information .subscribe h1{
+    font-weight: bold;
+    font-size: 40px;
+    padding-top: 15px ;
+    padding-left: 20px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+.information .subscribe input{
+    font-size: 16px!important;
+    color: #515050!important;
+    background-color: #f4f4f4!important;
+    border-color: rgba(255,255,255,0.01)!important;
+    border-radius: 28px;
+    border-width: 2px!important;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding: 20px;
+}
+.information .subscribe button{
+    text-transform: none;
+    border-radius: 15px!important;
+    font-size: inherit;
+    border-radius: 30px;
+    padding: 10px 16px;
+    background-color: #ff3939;
+    color: white;
+    margin: 10px 20px;
+}
+.information .subscribe button:hover  {
+    background-color: black;
+}
+.information .subscribe p{
+    font-family: "Jost";
+    color: #515050;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 34px;
+}
+/*end information part*/
