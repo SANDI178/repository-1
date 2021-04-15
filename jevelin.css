@@ -152,11 +152,82 @@ padding-left: 15px;
     color: #ffffff;
     margin-bottom: 15px;
 }
-
 .space{
     background-color: rgb(238, 234, 236);
     border-radius: 15px;
 }
+@media screen and (max-width: 1200px) {
+.trending{
+    padding: 10px ;
+    width: 25%;
+}
+
+.trending button{
+    font-size: 40px;
+    border-radius: 15px;
+    background-color: #ff3939;
+    color: #ffffff;margin-bottom: 15px;
+}
+.trending p{
+    font-size: 40px;
+}
+.trending h1{
+    font-size: 40px;
+}  
+}
+@media screen and (min-width: 992px) {
+    .trending{
+        padding:  10px;
+    } 
+    .trending button{
+        font-size: 25px;
+        border-radius: 15px;
+        background-color: #ff3939;
+        color: #ffffff;margin-bottom: 15px;
+    }
+    .trending p{
+        font-size: 25px;
+    }
+    .trending h1{
+        font-size: 25px;
+    }  
+}
+@media screen and (min-width: 768px) {
+    .trending{
+        padding:  10px;
+    } 
+    .trending button{
+        font-size: 20px;
+        border-radius: 15px;
+        background-color: #ff3939;
+        color: #ffffff;margin-bottom: 15px;
+    }
+    .trending p{
+        font-size: 20px;
+    }
+    .trending h1{
+        font-size: 20px;
+    }  
+}
+
+@media screen and (min-width: 480px) {
+    .trending{
+        padding:  10px;
+    }   
+    .trending button{
+        font-size: 16px;
+        border-radius: 15px;
+        background-color: #ff3939;
+        color: #ffffff;
+    }
+    .trending p{
+        font-size: 16px;
+    }
+    .trending h1{
+        font-size: 16px;
+    }
+}
+
 
 /*Trending End */
 
@@ -192,6 +263,7 @@ padding-left: 15px;
         border-radius: 15%;
         padding-bottom: 10px;
         padding: 15px;
+
     }
     .dessert .Sunday{
         width: 100%;
@@ -225,7 +297,77 @@ padding-left: 15px;
         background-color: rgb(238, 234, 236);
         border-radius: 15px;
     }
-
+    @media screen and (max-width: 1200px) {
+        .dessert{
+            padding: 10px ;
+            width: 25%;
+        }
+        
+        .dessert button{
+            font-size: 30px;
+            border-radius: 15px;
+            background-color: #ff3939;
+            color: #ffffff;margin-bottom: 15px;
+        }
+        .dessert p{
+            font-size: 40px;
+        }
+        .dessert h1{
+            font-size: 40px;
+        }  
+        }
+        @media screen and (min-width: 992px) {
+            .dessert{
+                padding: 10px;
+            } 
+            .dessert button{
+                font-size: 25px;
+                border-radius: 15px;
+                background-color: #ff3939;
+                color: #ffffff;margin-bottom: 15px;
+            }
+            .dessert p{
+                font-size: 25px;
+            }
+            .dessert h1{
+                font-size: 25px;
+            }  
+        }
+        @media screen and (min-width: 768px) {
+            .dessert{
+                padding:  10px;
+            } 
+            .dessert button{
+                font-size: 20px;
+                border-radius: 15px;
+                background-color: #ff3939;
+                color: #ffffff;margin-bottom: 15px;
+            }
+            .dessert p{
+                font-size: 20px;
+            }
+            .dessert h1{
+                font-size: 20px;
+            }  
+        }
+        
+        @media screen and (min-width: 480px) {
+            .dessert{
+                padding: 10px;
+            }   
+            .dessert button{
+                font-size: 16px;
+                border-radius: 15px;
+                background-color: #ff3939;
+                color: #ffffff;
+            }
+            .dessert p{
+                font-size: 16px;
+            }
+            .dessert h1{
+                font-size: 16px;
+            }
+        }
     .clr
    {
     clear: left; 
